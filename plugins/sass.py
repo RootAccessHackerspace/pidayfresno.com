@@ -15,7 +15,6 @@ def postBuild(site):
 
     for path in input_dir.glob('*.sass'):
         compiled_path = Path(output_dir, f'{path.stem}.css')
-        print(compiled_path)
         compiled_css = sass.compile(
             filename=os.fspath(path),
             include_paths=(
