@@ -1,0 +1,52 @@
+.semi
+    font-weight: 500
+
+h1, h2
+    font-weight: bold
+
+img
+    &.is-responsive
+        display: inline-block
+        width: 100%
+
+p.lead
+    font-size: $size-4
+
+section
+    &.header
+        background-color: #fff
+
+        h1
+            color: $pink
+            font-size: $size-1
+            font-weight: 900
+            margin: 0
+
+        h2
+            color: $grey-dark
+            margin: 0 !important
+
+    &.welcome
+        background-color: $pink !important
+
+        p
+            @extend .has-text-centered
+            font-size: $size-5
+            font-weight: 400
+
+    &.what-is
+        background-color: $white
+
+    &.signup
+        a
+            background-color: $pink !important
+            // display: block
+            font-size: $size-1
+            font-weight: bold
+
+    &.collab
+        a
+            color: $grey-lighter !important
+
+            &:hover
+                color: $pink !important

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PiDay Fresno 2021 – A virtual celebration of the Raspberry Pi</title>
+    <link rel="stylesheet" href="{% static '/static/css/style.css' %}" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" /> -->
+     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900" rel="stylesheet">
+</head>
+<body>
+    <section class="section header">
+        <div class="container">
+            <div class="columns is-mobile is-multiline is-centered is-vcentered">
+                <div class="column is-12-mobile is-8-tablet content">
+                    <h1>Pi Day Fresno 2021</h1>
+                    <h2>A virtual celebration of the Raspberry Pi</h2>
+                </div>
+                <div class="column is-4-mobile is-2-tablet">
+                    <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_Raspberry Pi Zero.svg' %}" alt="" class="is-responsive" />
+                    <!-- <img src="{% static '/static/img/pidayfresno-flag.png' %}" alt="PiDay Fresno" class="is-responsive" /> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% block body %}{% endblock %}
+
+    <section class="hero is-small is-dark collab">
+        <div class="container">
+            <div class="hero-body">
+                <p>Pi Day Fresno is a collaboration between <a href="https://rootaccess.org/" target="_blank">Root Access</a> and <a href="https://www.fresnoideaworks.org/" target="_blank">Ideaworks</a> in support of Fresno's maker community.</p>
+            </div>
+        </div>
+    </section>
+
+    {% block scripts %}{% endblock %}
+</body>
+</html>
