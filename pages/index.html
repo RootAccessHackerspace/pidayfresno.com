@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block body %}
+<section class="welcome hero is-small is-danger">
+    <div class="container">
+        <div class="hero-body">
+            <p>Although Pi Day looks a bit different this year, we hope you'll join us in celebrating all things Raspberry Pi!</p>
+        </div>
+    </div>
+</section>
+
+<section class="section what-is">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-10-desktop is-8-desktop">
+                <div class="columns is-mobile is-multiline is-centered is-vcentered is-variable is-6">
+                    <div class="column is-4-mobile is-3-tablet">
+                        <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_Raspberry Pi.svg' %}" alt="" class="is-responsive" />
+                    </div>
+                    <div class="column is-12-mobile is-9-tablet">
+                        <div class="content">
+                            <h1>What is Raspberry Pi?</h1>
+                            <p>The Raspberry Pi is a series of small, affordable computers that you can use to learn programming through fun, practical projects.</p>
+                            <p><a href="https://raspberrypi.org/" target="_blank" class="button is-danger">Learn more at raspberrypi.org</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns is-mobile is-multiline is-centered is-variable is-6">
+            <div class="column is-3-mobile is-2-tablet">
+                <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_Camera Module.svg' %}" alt="" class="is-responsive" />
+            </div>
+            <div class="column is-12-mobile is-10-tablet">
+                <div class="content">
+                    <h1>Virtual Pi Day</h1>
+                    <p>This year we're asking hackers, makers, and creators from the community to record a short, informal video of your Raspberry Pi project to be showcased on <a href="https://pidayfresno.com/">PiDayFresno.com</a>! Keep it casual and have fun! We'll upload your video to our YouTube channel and release them all on Pi Day, March 14th, 2021.</p>
+
+                    <p>Do you have multiple Raspberry Pi projects to show off? Fantastic! Feel free to submit multiple projects through this form. We want to see everything!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section signup">
+    <div class="container has-text-centered">
+        <a href="https://forms.gle/oMBfNxQxKxP2fjiF9" class="button is-danger is-large signup">Submit your project for Pi Day!</a>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns is-mobile is-centered is-vcentered is-variable is-8">
+            <div class="column is-4">
+                <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_Jumper Lead FF 3.svg' %}" alt="" class="is-responsive" />
+            </div>
+            <div class="column is-4">
+                <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_Jumper Lead FM.svg' %}" alt="" class="is-responsive" />
+            </div>
+            <div class="column is-4">
+                <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_Jumper Lead MM 1.svg' %}" alt="" class="is-responsive" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-6">
+                <div class="content">
+                    <h3>Video Guidelines:</h3>
+                    <ul>
+                        <li><span class="semi">Keep it short.</span> More than a minute, probably less than five, definitely less than ten.</li>
+                        <li><span class="semi">Keep it informal.</span> Record it on your phone, don't over-think it.</li>
+                        <li><span class="semi">Keep it casual.</span> Relax, be yourself, have fun with it!</li>
+                        <li><span class="semi">Keep it PG.</span> Kids may be watching!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column is-6">
+                <div class="content">
+                    <h3>Content Guidelines:</h3>
+                    <ul>
+                        <li>Who are you and what city do you live in?</li>
+                        <li>What did you build? Give us a demo!</li>
+                        <li>Why did you build it? Does it solve a problem or is it just for fun?</li>
+                        <li>How does it work? What software and hardware did you use?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>We're looking forward to seeing everyone's projects, and hope that we can check some of them out next year in person!</p>
+
+            <p>If you have any questions, please contact <a href="mailto:derek@rootaccess.org?subject=PiDay">derek@rootaccess.org</a>.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns is-mobile is-centered is-vcentered is-variable is-8">
+            <div class="column is-1">
+                <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_LED 1.svg' %}" alt="" class="is-responsive" />
+            </div>
+            <div class="column is-1">
+                <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_LED 2.svg' %}" alt="" class="is-responsive" />
+            </div>
+            <div class="column is-1">
+                <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_LED 3.svg' %}" alt="" class="is-responsive" />
+            </div>
+            <div class="column is-1">
+                <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_LED 4.svg' %}" alt="" class="is-responsive" />
+            </div>
+            <div class="column is-1">
+                <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_LED 5.svg' %}" alt="" class="is-responsive" />
+            </div>
+            <div class="column is-1">
+                <img src="{% static '/static/img/jam/Raspberry-Jam-Graphics_LED 6.svg' %}" alt="" class="is-responsive" />
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
