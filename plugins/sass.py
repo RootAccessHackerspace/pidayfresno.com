@@ -21,7 +21,7 @@ def postBuild(site):
                 os.fspath(input_dir),
                 os.fspath(node_modules)
             ),
-            output_style='nested',
+            output_style='compressed',
         )
 
         with open(compiled_path, 'w') as f:
