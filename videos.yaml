@@ -1,0 +1,55 @@
+- name: Dj Agellon
+  url: https://twitter.com/drunkmonky
+  project: Retropie Arcade Cabinet
+  description: Arcade cabinet that runs retropie on a Raspberry Pi 4. Cabinet is from recroommasters.com. Joysticks from xgaming.com
+  youtube_id: r1lgYQYjdhE
+
+- name: Brooke Payton
+  url: https://twitter.com/keroppikrazy
+  project: Baking a Raspberry Cream Pie
+  description: |
+    Raspberry cream pie made from scratch at home and finished at Root Access. It’s the first time I have made a pie from scratch. Apparently it was delicious. (Editors note: It was.)
+  youtube_id: oei1D9HUNS8
+
+- name: Michael Chrisco
+  project: Satnog Satellite Tracker
+  description: |
+    Satellite tracking with Raspberry Pis and RTL-SDR.
+
+    https://github.com/RootAccessHackerspace/meta/wiki/Satellite-Tracker
+  youtube_id: k3eu2xIzb-8
+
+- name: Root Access
+  url: https://rootaccess.org
+  project: Creating some Holiday Magic
+  description: In 2019, Holiday Magic Studios approached Root Access to get some help with building an interactive, light-up display for their Santa's Workshop photo studio. In 2020, the display got a Raspberry Pi upgrade and helped create a COVID-safe Santa experience for hundreds of kids.
+  youtube_id: 01CkG_ljrgI
+
+- name: Wendy Chrisco
+  url: https://twitter.com/ChriscoWendy
+  project: PIe Day
+  description: A cross-stitch of a raspberry pie patch, in stop-motion.
+  youtube_id: m3TBCkqSvTI
+
+- name: Brooke Payton
+  project: No Bake Mini Raspberry Cheesecakes
+  description: Box made raspberry mini cream pies at the back kitchen area of Root Access. Follow the instructions and enjoy.
+  youtube_id: r1N3i98vFiw
+
+- name: Root Access
+  url: https://rootaccess.org/
+  project: PiBAM
+  description: Turning a high-precision regulatory air quality monitor into a near real-time data logger.
+  youtube_id: 6WVu8xJ3bo8
+
+- name: Sean Choquette
+  url: https://twitter.com/seanchoq
+  project: Sabertooth Deathbot
+  description: Take a discarded wheelchair and use a Sabertooth 2x32 dual channel, regenerative power supply to turn it into death on 6 wheels.  In this example we use a FlySky FS-I6X RC controller and receiver.  Sabertooth 2x32 comes with it's own motor controller pre-processor for ramping and power control.  It is programmed with Arduino libraries, .NET (C#, VBS) and Dimension Engineering's DEScribe software.
+  youtube_id: mXbegCGFhA8
+
+- name: Root Access | Board of Directors
+  url: https://rootaccess.org
+  project: Let's eat some pie!
+  description: To celebrate Pi Day, (most of) the Root Access Board of Directors got together over Zoom to hang out, eat some pie, and chat about Raspberry Pi's!
+  youtube_id: dyxaNyD_tGM
